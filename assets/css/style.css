@@ -1,0 +1,283 @@
+/*
+wood brown: #A89F68;
+army green: #41521F;
+*/
+
+
+/* Colocamos el border-box */
+
+* {
+    box-sizing: border-box !important;
+}
+
+
+/* Clases para header, seccion de bienvenida */
+header {
+    background-image: url(../img/portada.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 650px;
+    top: 0px;
+}
+
+.navbar-default {
+	background-color: transparent !important;
+    border-color: transparent !important;
+    color: white !important;
+}
+
+.navbar-brand, .links{
+    color: white !important;
+}
+
+header nav {
+    color: white;
+    padding: 1%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+}
+
+.bienvenida h1 {
+    padding-top: 50%;
+    color: #fff;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.bienvenida .btn{
+    background-color:  #41521F;
+    color: white;
+    border: 2px solid #41521F;
+    font-weight: bold;
+}
+
+.bienvenida .btn:hover{
+    background-color:  rgba(65, 82, 31, 0.89);
+    color: white;
+    border: 2px solid #41521F; 
+}
+
+.text{
+    margin-left: 0px !important;
+}
+
+/* Seccion acerca de la información de la fundacion */
+
+#fundation-information {
+    height: auto;
+}
+
+#section2 {
+    margin-top: 5%;
+    align-content: bottom;
+}
+
+#fundation-information h4,
+#fundation-information h2 {
+    color: #A89F68;
+    font-weight: bold;
+}
+
+.seeMore-link {
+    color: #A89F68;
+}
+
+.seeMore-link:hover{
+    color:  #41521F;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.info{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+/* Seccion de Easy Help */
+
+#easyHelp {
+    height: auto;
+    background-color: #a89f68;
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.background-white {
+    background-color: white;
+    align-content: center;
+    width: 500px;
+    text-align: center;
+    padding: 4%;
+}
+
+#easyHelp h3 {
+
+    color: #43521f;
+    font-weight: 700;
+}
+
+#easyHelp h5 {
+  
+    font-weight: bold;
+}
+
+#easyHelp a {
+    background-color: #41521F;
+    border: none;
+    font-weight: bold;
+    font-weight: 0.9em !important;
+}
+
+#easyHelp p {
+    font-size: 0.9em ;
+}
+
+/* Seccion Help Koalas */
+
+#help-koalas {
+    height: auto;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.images{
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Icons */
+
+#icons {
+    padding: 60px;
+}
+
+#icons i,
+#icons h3 {
+    color: #a89f68;
+    margin-bottom: 10%;
+    margin-top: 10;
+}
+
+#icons h3 {
+    font-weight: bold;
+    margin-bottom: 7%;
+}
+
+#icons p {
+    color: #6C6B6B;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+
+
+
+
+/* Seccion Price */
+
+#price {
+    background-color: #a89f68;
+}
+
+.sectionPrice {
+    padding: 7%;
+}
+
+#price h2 {
+    font-weight: bold;
+    color: #43521f;
+}
+
+#price h6 {
+    color: #373434;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-weight: 800;
+}
+
+#price a, #price .btn {
+    margin-top: 5%;
+    background-color: #41521F;
+    border: 2px solid #41521F;
+    font-weight: bold;
+}
+
+#price .btn{
+    font-size: 1.2em;
+}
+
+#price .btn:hover{
+    border: none;
+}
+
+.signo {
+    color: #fff;
+    font-size: 1em;
+    vertical-align: 3em;
+}
+
+.precio {
+    color: #fff;
+    font-size: 5em;
+}
+
+.moneda {
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.prices {
+    padding: 2% 10%;
+    margin-bottom: 2%;
+    
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #41521f;
+    color: white;
+    height: auto;
+    padding: 5%;
+    padding-left: 10%;
+    padding-bottom: 7%;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+footer a,
+footer h5 {
+    color: #a89f68;
+}
+
+footer a:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.modal{
+    color: black !important;
+}
+
+.btnClose {
+    background-color: #41521f !important;
+    color: white !important;
+    border: none !important; 
+}
+
+.well{
+    background-color: #41521f !important;
+    color: white ;
+    border: none !important;
+}
