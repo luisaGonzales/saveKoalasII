@@ -12,6 +12,7 @@ army green: #41521F;
 
 
 /* Clases para header, seccion de bienvenida */
+
 header {
     background-image: url(../img/portada.jpg);
     background-position: center;
@@ -23,12 +24,13 @@ header {
 }
 
 .navbar-default {
-	background-color: transparent !important;
+    background-color: transparent !important;
     border-color: transparent !important;
     color: white !important;
 }
 
-.navbar-brand, .links{
+.navbar-brand,
+.links {
     color: white !important;
 }
 
@@ -47,22 +49,23 @@ header nav {
     font-size: 35px;
 }
 
-.bienvenida .btn{
-    background-color:  #41521F;
+.bienvenida .btn {
+    background-color: #41521F;
     color: white;
     border: 2px solid #41521F;
     font-weight: bold;
 }
 
-.bienvenida .btn:hover{
-    background-color:  rgba(65, 82, 31, 0.89);
+.bienvenida .btn:hover {
+    background-color: rgba(65, 82, 31, 0.89);
     color: white;
-    border: 2px solid #41521F; 
+    border: 2px solid #41521F;
 }
 
-.text{
+.text {
     margin-left: 0px !important;
 }
+
 
 /* Seccion acerca de la información de la fundacion */
 
@@ -85,16 +88,17 @@ header nav {
     color: #A89F68;
 }
 
-.seeMore-link:hover{
-    color:  #41521F;
+.seeMore-link:hover {
+    color: #41521F;
     text-decoration: none;
     font-size: 1em;
 }
 
-.info{
+.info {
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
 }
+
 
 /* Seccion de Easy Help */
 
@@ -104,8 +108,9 @@ header nav {
     color: white;
     font-weight: bolder;
     font-size: 1em;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 5%;
 }
 
 .background-white {
@@ -117,13 +122,11 @@ header nav {
 }
 
 #easyHelp h3 {
-
     color: #43521f;
     font-weight: 700;
 }
 
 #easyHelp h5 {
-  
     font-weight: bold;
 }
 
@@ -135,23 +138,33 @@ header nav {
 }
 
 #easyHelp p {
-    font-size: 0.9em ;
+    font-size: 0.9em;
+    padding-right: 2%;
 }
+
+.img-cosita {
+    width: 80%;
+}
+
+.img-thumbnail {
+    padding: 10px !important;
+    border-radius: 0px !important;
+}
+
 
 /* Seccion Help Koalas */
 
 #help-koalas {
     height: auto;
-    color: white;
-    text-shadow: 2px 2px #000000;
     margin-bottom: 5%;
     margin-top: 5%;
 }
 
-.images{
+.images {
     width: 100% !important;
     height: auto !important;
 }
+
 
 /* Icons */
 
@@ -178,9 +191,6 @@ header nav {
 }
 
 
-
-
-
 /* Seccion Price */
 
 #price {
@@ -203,18 +213,20 @@ header nav {
     font-weight: 800;
 }
 
-#price a, #price .btn {
+#price a,
+#price .btn {
     margin-top: 5%;
     background-color: #41521F;
     border: 2px solid #41521F;
     font-weight: bold;
-}
-
-#price .btn{
     font-size: 1.2em;
 }
 
-#price .btn:hover{
+#price .btn {
+    font-size: 1.2em;
+}
+
+#price .btn:hover {
     border: none;
 }
 
@@ -238,7 +250,6 @@ header nav {
 .prices {
     padding: 2% 10%;
     margin-bottom: 2%;
-    
 }
 
 
@@ -266,18 +277,18 @@ footer a:hover {
     text-decoration: none;
 }
 
-.modal{
+.modal {
     color: black !important;
 }
 
 .btnClose {
     background-color: #41521f !important;
     color: white !important;
-    border: none !important; 
+    border: none !important;
 }
 
-.well{
+.well {
     background-color: #41521f !important;
-    color: white ;
+    color: white;
     border: none !important;
 }
