@@ -1,0 +1,44 @@
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    #price {
+        padding: 80px 50px;
+        font-size: 1.2em;
+    }
+    .sectionPrice {
+        padding: 7%;
+    }
+    #price h6 {
+        font-size: 0.8em;
+    }
+    #price h2 {
+        font-size: 1.7em;
+        margin-bottom: 15%;
+    }
+    .prices {
+        padding: 2% 10%;
+        margin-bottom: 2%;
+    }
+    #easyHelp {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    
+    .img-tres {
+        width: 400px !important;
+    }
+    
+    footer {
+        padding-top: 20%;
+        padding-bottom: 20%;
+        padding-left: 0px;
+    }
+    footer h5,
+    footer p {
+        text-align: left;
+    }
+    footer div {
+        text-align: center;
+    }
+}
+
